@@ -1,125 +1,109 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CloakOS - Landing Page</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="navbar">
+      <h1>logo</h1>
+      <nav class="nav-links">
+        <a href="#">Sobre</a>
+        <a href="#">Como funciona</a>
+        <a href="#">Recursos</a>
+        <a href="#">Insights</a>
+        <a href="#">Preços</a>
+        <a href="#">Contato</a>
+      </nav>
+      <button class="btn-demo">
+        Agendar demonstração <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </header>
+
+    <main class="hero">
+      
+        <div class="hero-content ">
+          <p class="subtitle">VEJA O QUE SUA EMPRESA NÃO CONSEGUE ENXERGAR.</p>
+          <h1>
+            Transformamos clientes
+            <span class="text-gradient-purple">invisíveis</span> em
+            oportunidades <span class="text-gradient-blue">visíveis</span>.
+          </h1>
+          <p class="description">
+            O CloakOS revela padrões, comportamentos e oportunidades que passam
+            despercebidos, aumentando suas vendas, reduzindo perdas e
+            impulsionando resultados.
+          </p>
+          <div class="cta-buttons">
+            <button class="btn-primary">
+              Quero revelar o invisível <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button class="btn-secondary">
+              <i class="fa-solid fa-play"></i> Ver como funciona
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow-bg"></div>
+          <div class="main-logo-3d">
+            <img src="assets/c-da-marca.png" alt="" />
+          </div>
+        </div>
+      
+    </main>
+
+    <section class="features">
+      <div class="feature-card">
+        <div class="icon-box"><i class="fa-solid fa-crosshairs"></i></div>
+        <h3>Descubra oportunidades</h3>
+        <p>
+          Identificamos oportunidades que estavam escondidas nos seus dados.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Aumente sua conversão</h3>
+        <p>
+          Reduza perdas e aumente sua taxa de conversão de forma inteligente.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+        <h3>IA que investiga por você</h3>
+        <p>Nossa IA cruza dados e encontra padrões que ninguém mais vê.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Segurança enterprise</h3>
+        <p>Seus dados protegidos com o mais alto nível de segurança.</p>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
-
-<!-- HERO HADESCLIENT -->
-<section class="hero" id="hero">
-  <!-- Background Glow -->
-  <div class="hero-bg">
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-  </div>
-
-  <!-- Navbar -->
-  <header class="navbar">
-    <a href="#" class="logo">
-      <span class="logo-icon">
-        <!-- Mini capacete -->
-        <svg viewBox="0 0 120 120" fill="none">
-          <path
-            d="M60 12
-                             C25 12 12 42 12 66
-                             L12 84
-                             L36 84
-                             L48 108
-                             L72 108
-                             L84 84
-                             L108 84
-                             L108 66
-                             C108 42 95 12 60 12Z"
-          />
-        </svg>
-      </span>
-
-      <span class="logo-text"> HADES<span>CLIENT</span> </span>
-    </a>
-
-    <nav class="menu">
-      <a href="#">Como funciona</a>
-      <a href="#">Insights</a>
-      <a href="#">Soluções</a>
-      <a href="#">Contato</a>
-    </nav>
-
-    <a href="#" class="nav-btn"> Revelar o Invisível </a>
-  </header>
-
-  <!-- Conteúdo -->
-  <div class="hero-content">
-    <!-- Badge -->
-    <div class="hero-badge">IA Investigativa para empresas</div>
-
-    <!-- Headline -->
-    <h1 class="hero-title">REVELAMOS O QUE <span>ESTÁ INVISÍVEL.</span></h1>
-
-    <!-- Subheadline -->
-    <p class="hero-description">
-      Descubra por que sua empresa perde clientes, <br>vendas e oportunidades antes
-      que o prejuízo <br>aconteça.
-    </p>
-
-    <!-- Botões -->
-    <div class="hero-actions">
-      <a href="#" class="btn btn-primary"> Revelar o Invisível </a>
-
-      <a href="#" class="btn btn-secondary"> Ver demonstração </a>
-    </div>
-  </div>
-
-  <!-- Capacete -->
-  <div class="helmet-wrapper">
-    <div class="helmet-glow"></div>
-
-    <img src="assets/capacete-hades.png" alt="" />
-  </div>
-
-  <!-- Card Argos -->
-  <!-- <div class="argos-card">
-    <div class="argos-dot"></div>
-
-    <div class="argos-info">
-      <small>ARGOS AI</small>
-
-      <strong> Detectei oportunidades invisíveis na sua operação. </strong>
-    </div>
-  </div> -->
-
-  <!-- Carrossel -->
-  <div class="marquee-container">
-    <div class="helmet-mask"></div>
-
-    <div class="marquee-track">
-      <span>CLIENTES</span>
-      <span>LEADS</span>
-      <span>RECEITA</span>
-      <span>VENDAS</span>
-      <span>OPORTUNIDADES</span>
-      <span>CONVERSÕES</span>
-      <span>ATENDIMENTO</span>
-      <span>FOLLOW-UP</span>
-
-      <!-- duplicado -->
-      <span>CLIENTES</span>
-      <span>LEADS</span>
-      <span>RECEITA</span>
-      <span>VENDAS</span>
-      <span>OPORTUNIDADES</span>
-      <span>CONVERSÕES</span>
-      <span>ATENDIMENTO</span>
-      <span>FOLLOW-UP</span>
-    </div>
-  </div>
-</section>
-
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-
-<!-- Seu JS -->
-<script src="script.js"></script>
